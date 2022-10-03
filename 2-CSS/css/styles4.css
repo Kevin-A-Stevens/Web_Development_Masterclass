@@ -1,0 +1,30 @@
+/* Tag selectors */
+
+body {
+  background-color: #674747;
+}
+
+/* Class selectors */
+
+.bacon {
+  background-color: #eeeeee;
+}
+
+.broccoli {
+  background-color: #f96666;
+  height: 160px;
+  width: 160px;
+}
+
+/* ID selectors */
+
+#heading {
+  color: #eeeeee;
+  font-size: 100px;
+}
+
+/* Pseudo class selectors */
+
+img:hover {
+  background-color: gold;
+}
