@@ -1,2 +1,6 @@
 Use https://colorhunt.co/ to pick colors
 Use https://emojipedia.org/ for emojis
+Use https://www.favicon.cc/ for favicons
+Use https://fonts.google.com/ for fonts
+Use https://www.flaticon.com/ for images
+Use https://css3buttongenerator.com/ for buttons
