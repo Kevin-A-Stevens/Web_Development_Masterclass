@@ -4,3 +4,9 @@ Use https://www.favicon.cc/ for favicons
 Use https://fonts.google.com/ for fonts
 Use https://www.flaticon.com/ for images
 Use https://css3buttongenerator.com/ for buttons
+!Use https://fontawesome.com/icons for icons
+
+
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-bullseye"></i>
+<i class="fa-solid fa-circle-check"></i>
