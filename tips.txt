@@ -5,6 +5,7 @@ Use https://fonts.google.com/ for fonts
 Use https://www.flaticon.com/ for images
 Use https://css3buttongenerator.com/ for buttons
 !Use https://fontawesome.com/icons for icons
+!Use https://search.google.com/test/mobile-friendly to test
 
 
 <i class="fa-solid fa-heart"></i>
