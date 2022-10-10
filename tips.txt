@@ -1,13 +1,13 @@
-Use https://colorhunt.co/ to pick colors
+!Use https://colorhunt.co/ to pick colors
 Use https://emojipedia.org/ for emojis
 Use https://www.favicon.cc/ for favicons
-Use https://fonts.google.com/ for fonts
+!Use https://fonts.google.com/ for fonts
 Use https://www.flaticon.com/ for images
 Use https://css3buttongenerator.com/ for buttons
 !Use https://fontawesome.com/icons for icons
 !Use https://search.google.com/test/mobile-friendly to test
+https://css-tricks.com/ > Almanac
+https://unsplash.com/
 
+HTML template I can use is in CSS-My-Site and contains my favicon
 
-<i class="fa-solid fa-heart"></i>
-<i class="fa-solid fa-bullseye"></i>
-<i class="fa-solid fa-circle-check"></i>

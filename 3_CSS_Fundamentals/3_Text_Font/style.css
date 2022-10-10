@@ -1,0 +1,56 @@
+/* Selector {
+    Property: Value;
+} 
+
+text-decoration: changes text
+text-transform changes text
+line-height changes space between lines
+font-style changes font style
+font-weight changes weight of font
+font-size changes size of text
+font-family changes font family of text
+*/
+
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(ships.jpg);
+  background-size: cover;
+}
+
+h2,
+p {
+  color: red;
+  text-align: center;
+  border: 5px dashed #ffb8aa;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  color: #aa4139;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.2);
+}

@@ -1,0 +1,20 @@
+run traceroute google.com
+|15:00:56|kevinstevens@system76-pc:[~]> traceroute google.com
+traceroute to google.com (142.250.189.110), 30 hops max, 60 byte packets
+ 1  my.jetpack (192.168.1.1)  2.665 ms  4.299 ms  4.281 ms
+ 2  255.sub-66-174-175.myvzw.com (66.174.175.255)  34.220 ms  34.203 ms  33.409 ms
+ 3  * * *
+ 4  * * *
+ 5  34.sub-69-83-60.myvzw.com (69.83.60.34)  47.084 ms  47.651 ms  47.635 ms
+ 6  * * *
+ 7  172.sub-69-83-32.myvzw.com (69.83.32.172)  50.720 ms  35.238 ms  28.623 ms
+ 8  24.sub-69-82-196.myvzw.com (69.82.196.24)  89.859 ms  52.471 ms  53.321 ms
+ 9  49.sub-69-83-32.myvzw.com (69.83.32.49)  59.287 ms  59.271 ms  58.987 ms
+10  0.ae20.GW2.ATL17.ALTER.NET (140.222.235.67)  46.631 ms 0.ae19.GW2.ATL17.ALTER.NET (140.222.235.65)  67.051 ms 0.ae20.GW2.ATL17.ALTER.NET (140.222.235.67)  66.245 ms
+11  152.179.241.182 (152.179.241.182)  61.056 ms  57.688 ms  60.258 ms
+12  108.170.249.65 (108.170.249.65)  44.845 ms 108.170.249.33 (108.170.249.33)  52.270 ms 108.170.249.65 (108.170.249.65)  55.548 ms
+13  142.251.70.151 (142.251.70.151)  53.071 ms  56.067 ms  63.382 ms
+14  atl26s29-in-f14.1e100.net (142.250.189.110)  62.958 ms  62.933 ms  41.224 ms
+
+copy 142.250.189.110 and paste to web browser. 
+You will be taking to google web site

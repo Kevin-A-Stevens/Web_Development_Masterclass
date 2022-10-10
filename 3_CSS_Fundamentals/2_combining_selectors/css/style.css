@@ -1,0 +1,81 @@
+/* 
+CSS Styles 
+
+Combining Selectors 
+
+color - changes text color
+font-size - changes size of text
+font-family - specify font type for your text
+text-transform - change text such as uppercase or lowercase
+font-style - change style of font such as to italic
+line-height - specifies space between lines
+text-align - aligns text on the page
+font-weight - change how font appears such as bold
+list-style - change style of bullet points
+
+*/
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* Descendant Selectors select all p elements inside footer element */
+footer p {
+  font-size: 16px;
+}
+
+/* ID Selector */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+/* Class Selector */
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}

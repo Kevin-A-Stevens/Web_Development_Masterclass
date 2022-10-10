@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <!-- Form Tag -->
+    <form action="">
+      <!-- Input Tag -->
+      First Name: <input type="text" name="firstname" />
+      <br />
+      Last Name: <input type="text" name="lastname" />
+      <br />
+      Email: <input type="email" name="email" required />
+      <br />
+      Password: <input type="password" name="password" min="5" />
+      <br />
+      Birthday:
+      <input type="date" name="birthday" />
+      <br />
+      Gender: <br />
+      <input type="radio" name="gender" />Male<br />
+      <input type="radio" name="gender" />Female<br />
+      Pets: <br />
+      <input type="checkbox" name="cat" />Cat<br />
+      <input type="checkbox" name="dog" />Dog<br />
+      Cars: <br />
+      <!-- Select form tag -->
+      <select name="cars" id="">
+        <option value="Volvo" name="volvo">Volvo</option>
+        <option value="Honda" name="honda">Honda</option>
+        <option value="Ford" name="ford">Ford</option>
+      </select>
+      <input type="submit" value="Register" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
+
+<!-- After clicking submit
+http://127.0.0.1:5500/2_Advanced_HTML/1_HTML_forms/index.html?firstname=fake&lastname=man&email=fake%40gmail.com&password=123&birthday=2022-09-25&gender=on&cat=on&dog=on
+The name field is sent in the url
+-->
