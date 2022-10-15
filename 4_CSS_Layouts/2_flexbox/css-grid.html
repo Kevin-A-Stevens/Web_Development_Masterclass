@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      .el--1 {
+        background-color: blueviolet;
+      }
+      .el--2 {
+        background-color: orangered;
+      }
+      .el--3 {
+        background-color: green;
+        height: 150px;
+      }
+      .el--4 {
+        background-color: goldenrod;
+      }
+      .el--5 {
+        background-color: palevioletred;
+      }
+      .el--6 {
+        background-color: steelblue;
+      }
+      .el--7 {
+        background-color: yellow;
+      }
+      .el--8 {
+        background-color: crimson;
+      }
+
+      .container--1 {
+        
+        /* STARTER */
+        font-family: sans-serif;
+        background-color: #ddd;
+        font-size: 30px;
+        margin: 40px;
+
+        /* CSS GRID */
+        /* Grid container and grid items */
+        /* Container: grid-template-rows, grid-template=-columns, row-gap, column-gap */
+        /* Container cont: justify-items, align-items, justify-content, align-content */
+        /* Grid items: grid-column, grid-row, justify-self, align-self */
+        display: grid;
+        /* define columns in the container. For each value, one column is created */
+        /* Use fr for better results; auto will only take as much size as needed for its content */
+        grid-template-columns: 2fr 1fr 1fr auto; /* repeat(4, 1fr) */
+        /* define rows if you want in the container. For each value, one row is created */
+        /* In order to use 1fr on rows, need to set a height - see above height of 150px */
+        /* height: 150px; */
+        grid-template-rows: 1fr 1fr;
+        /* Create a gap between the items */
+        column-gap: 20px;
+        row-gap: 40px;
+        display: none; /* remove to see grid */
+      }
+
+      /* moving an item to a specific part of the grid */
+      .el--8 {
+        grid-column: 2 / 3; /* start at column 2 and end at column 3 */
+        grid-row: 1 / 3; /* start at row 1 and end at row 2 */
+      }
+
+      .el--2 {
+        grid-column: 1 / span 2; /* span across 2 cells */
+        grid-row: 2 / 3;
+      }
+
+      el--6 {
+        grid-row: 3 / 5;
+      }
+
+      .container--2 {
+        
+        /* STARTER */
+        font-family: sans-serif;
+        background-color: black;
+        font-size: 40px;
+        margin: 40px;
+
+        width: 700px;
+        height: 600px;
+
+        /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        /* aligning tracks inside a container and distribute empty space */
+        justify-content: center; /* center, space-between, space-around, start, end */
+        align-content: center; /* center, space-between, space-around, start, end */
+        gap: 20px;
+
+        /* Aligning items inside cells */
+        align-items: center; /* stretch, center */
+        justify-items: center; /* stretch, center */
+      }
+
+      .el--3 {
+        align-self: end; /* over-writes align-items above set on the container */ 
+        justify-self: end; /* over-writes justify-items above set on the container */ 
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container--1">
+      <div class="el el--1">(1) HTML</div>
+      <div class="el el--2">(2) and</div>
+      <div class="el el--3">(3) CSS</div>
+      <div class="el el--4">(4) are</div>
+      <div class="el el--5">(5) amazing</div>
+      <div class="el el--6">(6) languages</div>
+      <div class="el el--7">(7) to</div>
+      <div class="el el--8">(8) learn</div>
+    </div>
+
+    <div class="container--2">
+      <div class="el el--1">(1)</div>
+      <div class="el el--3">(3)</div>
+      <div class="el el--4">(4)</div>
+      <div class="el el--5">(5)</div>
+      <div class="el el--6">(6)</div>
+      <div class="el el--7">(7)</div>
+    </div>
+  </body>
+</html>
