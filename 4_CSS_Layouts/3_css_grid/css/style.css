@@ -1,0 +1,277 @@
+/* 
+CSS Grid
+*/
+
+/* Global reset set before starting any new project */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+
+  /* absolute positioning set relative on the parent */
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  height: 80px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 40px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Descendant Selectors select all p elements inside footer element */
+footer p {
+  font-size: 16px;
+}
+
+/* ID Selector */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+/* Class Selector */
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* 
+Psuedo Classes 
+This one selects the first li child of it's parent (ul)
+THe second one selects the last child of it's parent (ul)
+*/
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* Specify which child you want. Can use odd or even in place of number */
+li:nth-child(2) {
+  color: red;
+}
+
+/* Styling links using the :link, :visited, :hover, and :active pseudo classes. These states are always specified in this order */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto; /* Sets aspect ratio so image is not distorted */
+}
+
+nav a:link {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* Set absolute positioning */
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* Pseudo element selector */
+h2::first-letter {
+  font-size: 80px;
+}
+
+p::first-line {
+  color: red;
+}
+
+/* Adjacent Sibling Selector*/
+h3 + p::first-letter {
+  font-size: 60px;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+/* FLEXBOX */
+
+/* Container of h1 and nav is the header */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* CSS GRID Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+footer {
+  grid-column: 1 / -1;
+}
