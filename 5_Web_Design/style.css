@@ -39,7 +39,7 @@ https://type-scale.com/
   Don't center long text blocks. Small blocks are fine
   */
 
-  /* RULE #2 Colors 
+/* RULE #2 Colors 
   https://yeun.github.io/open-color/
   https://coolors.co/ -- More > Contrast Checker
   Choose a color that matches your websites personality - See above
@@ -67,7 +67,7 @@ https://type-scale.com/
   Don't make your text too light
   */
 
-  /* RULE #3 Images and Illustrations
+/* RULE #3 Images and Illustrations
   https://unsplash.com/
   https://squoosh.app/
   Product Photos - illustrate the product
@@ -87,7 +87,8 @@ https://type-scale.com/
   Compress images for a lower filer size and better performance
   */
 
-  /* RULE #4 Icons
+/* RULE #4 Icons
+  Use icons only from one icon pack. Don't mix
   https://heroicons.com/
   Use a good icon pack: phosphor icons, ionicons, icons8
   You can use emojis as well
@@ -104,7 +105,7 @@ https://type-scale.com/
   Don't make icons larger than what they were designed for
   */
 
-  /* RULE #5 Shadows
+/* RULE #5 Shadows
   Shadows create depth and adds a 3d element to our design
   Use shadows only if it makes sense for the website personality
   The more playful a design gets, the more shadows you can use
@@ -116,14 +117,14 @@ https://type-scale.com/
   Change shadows on mouse interaction like click or hover
    */
 
-   /* RULE #6 Border Radius 
+/* RULE #6 Border Radius 
   Increase the playfulness and fun of the design
   typeface can determine how much border-radius and certain typography is more round than others
   buttons use border radius the most
   images and icons are also common to have border-radius
    */
 
-   /* RULE #7 White Space
+/* RULE #7 White Space
    Makes the design clean, modern, and polished
    Use whitespace between sections and between groups of elements
    usually need more white space vertically than horizontally between elements
@@ -135,7 +136,7 @@ https://type-scale.com/
     2, 4, 8, 12, 16, 32, 48, 64, 80, 96, 128
    */
 
-   /* RULE #8 Visual Hierarchy 
+/* RULE #8 Visual Hierarchy 
    Which element of a design are the the most ones
    Define a path for users to guide them through the page
    Position important elements closer to the top of the page where they get more attention
@@ -148,7 +149,7 @@ https://type-scale.com/
       forms, pricing tables, important rows/columns in tables
    */
 
-   /* RULE #9 User Experience (UX)
+/* RULE #9 User Experience (UX)
    Don't design complicated layouts. Use patterns that users know
    Make you call-to-action the most prominent element, and make the text descriptive
    Use blue text and underline text only for links
@@ -162,7 +163,7 @@ https://type-scale.com/
    Break up long text with sub-headings, images, block quotes, bullet points, etc
    */
 
-   /* The Website Personality Framework 
+/* The Website Personality Framework 
    Choose how you want the website to appear to users
    Choose one of the website personalities accordingly
    Apply personality traits to each of the design ingredients
@@ -197,14 +198,14 @@ https://type-scale.com/
   learned above
    */
 
-  /* 
+/* 
   MAIN COLOR: #087f5b
   LIGHT COLOR: #099268
   GREY COLOR: #343a40
   LIGHT GREY: #495057
   */
 
-  /* RULE #10 - Building a Web Page
+/* RULE #10 - Building a Web Page
   Build your elements - headers, paragraphs, etc you use to present the information you want
     Elements - text, buttons, images, input elements, tags
   Build your components by combining elements
@@ -218,7 +219,7 @@ https://type-scale.com/
   Assemble a final page from your layout
   */
 
-  /* 
+/* 
   SEVEN STEPS to building a website
   1. Define
     Who the website is for
@@ -266,7 +267,7 @@ https://type-scale.com/
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
 }
@@ -294,7 +295,7 @@ h2 {
 }
 
 .btn:link,
-.btn:visited  {
+.btn:visited {
   background-color: #087f5b;
   color: #fff;
   text-decoration: none;
@@ -304,7 +305,7 @@ h2 {
   padding: 16px 32px;
   display: inline-block;
   border-radius: 100px;
-} 
+}
 
 .btn:hover,
 .btn:active {
@@ -361,7 +362,7 @@ img {
 
 /* FEATURES */
 .features-icon {
-  stroke: #087f5b;  /* change color of SVG icon. Use fill on solid SVG icons */
+  stroke: #087f5b; /* change color of SVG icon. Use fill on solid SVG icons */
   width: 32px;
   height: 32px;
   margin-bottom: 24px;
@@ -421,7 +422,6 @@ img {
 
 .chair-box {
   padding: 32px;
-  
 }
 
 h3 {
