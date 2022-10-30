@@ -8,6 +8,8 @@ Use https://css3buttongenerator.com/ for buttons
 !Use https://search.google.com/test/mobile-friendly to test
 https://css-tricks.com/ > Almanac
 https://unsplash.com/
+!https://maketintsandshades.com/ for generating tints and shades
+!https://coolors.co/ Contrast checker
 
 HTML template I can use is in CSS-My-Site and contains my favicon
 
