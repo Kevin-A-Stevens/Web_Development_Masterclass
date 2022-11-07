@@ -18,3 +18,9 @@ https://unsplash.com/
 HTML template I can use is in CSS-My-Site and contains my favicon
 
 To get HTML Boiler plate !<Tab>
+
+Host on https://www.netlify.com/
+Go to sites
+Drag and drop folder
+Site Settings to change url > Change site name
+
