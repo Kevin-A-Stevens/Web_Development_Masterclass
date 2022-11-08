@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How CSS works</title>
+  </head>
+  <body>
+    <h1>Three Pillars of writing good HTML & CSS code</h1>
+    <ul>
+      <li>Responsive Design</li>
+      <li>Maintainable & Scalable code</li>
+      <li>Web Performance</li>
+    </ul>
+    <h2>Cascade</h2>
+    <p>
+      Process of combining different stylesheets and resolving conflicts between
+      different CSS rules and declarations, when more than one rule applies to a
+      certain element
+    </p>
+    <ul>
+      <li>Importance (weight)</li>
+      <li>Specificity (inline, IDs, Classes, Elements)</li>
+      <li>Source order</li>
+    </ul>
+    <h2>Inheritance</h2>
+    <p>Not all properties are inherited.</p>
+    <p>padding is not inherited, but line-height is</p>
+    <p>
+      properties related to text are inherited, such as font-size, font-family,
+      color, etc
+    </p>
+    <h2>Converting px to rem, An effective workflow</h2>
+    <ul>
+      <li>set font-size to 10px percentage in html element</li>
+      <li>10 / 16 = 0.625 = 62.5%</li>
+      <li>You can now use rem such as 16px = 1.6rem. 20px = 2 rem</li>
+    </ul>
+    <h2>Component driven design</h2>
+    <ul>
+      <li>
+        Think about the components that will make up your design. They should be
+        reusable across the project(s)
+      </li>
+      <li>Build using BEM (Block Element Modifier)</li>
+      <li>Block = stand-alone component such as .block</li>
+      <li>Element = Has no meaning on it's own such as .block__element</li>
+      <li>
+        Modifier = Makes a different version of an element, such as
+        .block__element--modifier
+      </li>
+      <li>Architect by organizing your code using 7:1</li>
+      <li>7 folders for partial SASS files and 1 main SASS file</li>
+      <li>
+        7 folder: base, components, layout, pages, themes, abstracts, and
+        vendors
+      </li>
+    </ul>
+  </body>
+</html>
