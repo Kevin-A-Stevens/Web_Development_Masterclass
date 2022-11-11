@@ -24,3 +24,17 @@ Go to sites
 Drag and drop folder
 Site Settings to change url > Change site name
 
+http://www.executivebio.net/KevinStevens/index.html
+
+Use npm
+cd to project directory that contains the index.html, css, img
+npm init
+Creates a package.json file 
+npm install node-sass --save-dev
+mkdir sass
+cd sass
+touch main.scss
+add npm script to package.json file
+Once main.scss is updated
+npm run compile:sass
+
