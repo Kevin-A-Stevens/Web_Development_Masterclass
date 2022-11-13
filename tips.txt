@@ -5,13 +5,14 @@ Use https://www.favicon.cc/ for favicons
 Use https://www.flaticon.com/ for images
 Use https://css3buttongenerator.com/ for buttons
 !Use https://fontawesome.com/icons for icons
+https://linea.io/ for icons
 https://ionic.io/ionicons for icons
 https://heroicons.com/ for icons
 !Use https://squoosh.app/ to compress images
 
 !Use https://search.google.com/test/mobile-friendly to test
 https://css-tricks.com/ > Almanac
-https://unsplash.com/
+https://unsplash.com/ for images
 !https://maketintsandshades.com/ for generating tints and shades
 !https://coolors.co/ Contrast checker
 
