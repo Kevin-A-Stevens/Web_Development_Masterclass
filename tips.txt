@@ -40,3 +40,4 @@ add npm script to package.json file
 Once main.scss is updated
 npm run compile:sass
 
+section form in Natours project
