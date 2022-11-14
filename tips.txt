@@ -9,6 +9,7 @@ https://linea.io/ for icons
 https://ionic.io/ionicons for icons
 https://heroicons.com/ for icons
 !Use https://squoosh.app/ to compress images
+!Use https://coverr.co/ for videos
 
 !Use https://search.google.com/test/mobile-friendly to test
 https://css-tricks.com/ > Almanac
