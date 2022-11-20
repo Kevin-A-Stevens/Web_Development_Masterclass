@@ -41,3 +41,8 @@ Once main.scss is updated
 npm run compile:sass
 
 section form in Natours project
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
