@@ -17,6 +17,20 @@ https://unsplash.com/ for images
 !https://maketintsandshades.com/ for generating tints and shades
 !https://coolors.co/ Contrast checker
 
+!Use svg instead of icon fonts is best practice (icomoon)
+https://icomoon.io/
+Click on IcoMoon App 
+Click on Add Icons from the Library at the bottom
+Click Add for Entypo+
+Select icons you want to add to your page
+Click Generate SVG & More
+Click settings (Gear icon next to Download)
+uncheck PNG and then X to close
+Click Download
+Only need SVG folder and symbol-defs.svg file
+copy both to your project img folder
+rename symbol-defs.svg to sprite.svg
+
 HTML template I can use is in CSS-My-Site and contains my favicon
 
 To get HTML Boiler plate !<Tab>
@@ -41,6 +55,7 @@ Once main.scss is updated
 npm run compile:sass
 
 section form in Natours project
+Navigation on left of Twillo project as a cool hover animation
 
 ::selection {
   background-color: $color-primary;
