@@ -55,7 +55,7 @@ Once main.scss is updated
 npm run compile:sass
 
 section form in Natours project
-Navigation on left of Twillo project as a cool hover animation
+Sidebar nav on left of Twillo project as a cool hover animation
 
 ::selection {
   background-color: $color-primary;
