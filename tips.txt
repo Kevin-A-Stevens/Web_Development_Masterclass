@@ -56,8 +56,13 @@ npm run compile:sass
 
 section form in Natours project
 Sidebar nav on left of Twillo project as a cool hover animation
+Nexter - header combined with story section make a good header
+Nexter footer
 
 ::selection {
   background-color: $color-primary;
   color: $color-white;
 }
+
+Copy package.json
+npm install

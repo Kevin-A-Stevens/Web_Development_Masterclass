@@ -15,8 +15,10 @@ $font-primary: "Nunito", sans-serif;
 $font-display: "Josefin Sans", sans-serif;
 
 // RESPONSIVE BREAKPOINTS
-$bp-largest: 75em;
-$bp-large: 62.5em;
+$bp-largest: 75em; // 1200px - 1200 / 16
+$bp-large: 62.5em; // 1000px - 1000 / 16
+$bp-medium: 50em; // 800px - 800 / 16
+$bp-small: 37.5em; // 600px - 600 / 16
 
 *,
 *::before,
@@ -58,5 +60,9 @@ body {
       [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
       [center-end] minmax(6rem, 1fr)
       [full-end];
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-rows: 6rem calc(100vh - 6rem);
   }
 }
