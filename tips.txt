@@ -58,6 +58,8 @@ section form in Natours project
 Sidebar nav on left of Twillo project as a cool hover animation
 Nexter - header combined with story section make a good header
 Nexter footer
+JavaScript course has a slider to use for testimonials
+JavaScript course also has a project page
 
 ::selection {
   background-color: $color-primary;
