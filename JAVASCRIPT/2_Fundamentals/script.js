@@ -280,3 +280,32 @@ for (let i = 0; i < kevinArray.length; i++) {
   if (typeof kevinArray[i] === "number") break; // exit after number is found
   console.log(kevinArray[i], typeof kevinArray[i]);
 }
+
+// * Looping backwards
+for (let i = kevinArray.length - 1; i >= 0; i--) {
+  console.log(kevinArray[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`---------------Start exercise ${exercise}`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`----------Lifting weights repetition ${rep}`);
+  }
+}
+
+// * while loop
+let rep = 1;
+while (rep <= 10) {
+  console.log(`----------Lifting weights repetition ${rep}`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log("Loop is about to end...");
+}
