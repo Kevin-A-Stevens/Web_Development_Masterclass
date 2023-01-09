@@ -34,6 +34,10 @@ const restaurant = {
       close: 24,
     },
   },
+
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(`Here is your pasta with ${ing1}, ${ing2}, and ${ing3}`);
+  },
 };
 
 // Destructuring an array = break an array into smaller elements
@@ -103,3 +107,55 @@ const {
   fri: { open, close },
 } = openingHours;
 console.log(open, close); // 11 23
+
+// The spread operator used on RIGHT of the assignment operator
+
+const spreadArr = [7, 8, 9];
+
+const newArr = [1, 2, ...spreadArr];
+console.log(newArr); // [1,2,7,8,9]
+
+// Also useful when you need the elements individually outside of the array
+console.log(...newArr); // 1 2 7 8 9
+
+const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+console.log(newMenu);
+
+// Copy an array
+const mainMenuCopy = [...restaurant.mainMenu];
+console.log(mainMenuCopy);
+
+// join 2 arrays or more together
+const myMenu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+console.log(myMenu);
+
+// Iterables are arrays, strings, maps, and sets, but NOT objects
+const str = 'Kevin';
+const letters = [...str, ' ', 'S.'];
+console.log(letters);
+console.log(...str); // K e v i n
+
+const ingredients = [
+  prompt('Let us make pasta! Ingredient 1? '),
+  prompt('Ingredient 2? '),
+  prompt('Ingredient 3? '),
+];
+
+console.log(ingredients);
+
+restaurant.orderPasta(...ingredients);
+
+// Objects
+const newRestaurant = { foundedIn: 1998, ...restaurant, founder: 'Guiseppe' };
+console.log(newRestaurant);
+
+// Rest pattern used on LEFT of the assignment operator
+
+const [one, two, ...others] = [1, 2, 3, 4, 5];
+console.log(one, two, others); // 1 2 [3, 4, 5]
+
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+console.log(pizza, risotto, otherFood);
