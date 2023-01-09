@@ -68,3 +68,12 @@ JavaScript course also has a project page
 
 Copy package.json
 npm install
+
+create new web development project
+create project directory
+cd into project directory
+create new file called server.js
+npn init
+npm install express
+sudo install -g nodemon
+nodemon server.js
