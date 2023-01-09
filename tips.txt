@@ -72,8 +72,9 @@ npm install
 create new web development project
 create project directory
 cd into project directory
-create new file called server.js
+create new file called project_name.js
 npn init
 npm install express
-sudo install -g nodemon
-nodemon server.js
+sudo install -g nodemon = do not need as installed globally
+nodemon project_name.js
+npm install body-parser to pass data we get via a post req
