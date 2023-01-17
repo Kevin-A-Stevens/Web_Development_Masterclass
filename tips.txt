@@ -78,3 +78,6 @@ npm install express
 sudo install -g nodemon = do not need as installed globally
 nodemon project_name.js
 npm install body-parser to pass data we get via a post req
+
+If mongod will not start
+sudo rm /tmp/mongodb-27017.sock
